@@ -16,12 +16,12 @@ const BlogpostLayout = ({data}) => {
             keywords={post.categories}
         />
         <Header />
-        <div className="container">
+        <main className="container">
           <div className="row justify-content-md-center">
                 <h1 dangerouslySetInnerHTML={{__html: post.title}} />
                 <div dangerouslySetInnerHTML={{__html: post.content}} />
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     )
