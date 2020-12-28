@@ -4,7 +4,7 @@ import footerStyles from "./Footer.module.css"
 const Footer = () => (
     <footer className={footerStyles.footer}>
         <div className="container">
-            <span className="text-muted">© Ana Leal 2020</span>
+            <span className="text-dark">© Ana Leal 2020</span>
         </div>
     </footer>
 );
