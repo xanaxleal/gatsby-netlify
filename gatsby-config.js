@@ -36,12 +36,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `GatsbyJS Bootstrap Tutorial`,
-        short_name: `GatsbyJS`,
+        short_name: `GatsbyJS Bootstrap`,
         start_url: `/`,
         background_color: `#f8f9fa`,
         theme_color: `#FFFFFF`,
         display: `standalone`,
-        icon: `/static/favicon.ico`,
+        icon: `https://www.google.com/s2/favicons?domain=https://www.nytimes.com/`,
       },
     },
     `gatsby-plugin-offline`
